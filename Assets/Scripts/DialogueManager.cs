@@ -59,6 +59,6 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueUI.SetActive(false);
         player.GetComponent<PlayerMovement_2D>().enabled = true;
-        player.GetComponent<PlayerInteraction>().enabled = true;
+        player.GetComponent<PlayerInteraction>().enabled = true;     
     }
 }

@@ -6,6 +6,9 @@ public class PlayerInteraction : MonoBehaviour
 {
     public GameObject currentInteractObj;
     public InteractionObject currentObjScript;
+    public bool firstStep;
+    public bool secondStep;
+    public bool thirdStep;
 
     // Start is called before the first frame update
     void Start()
